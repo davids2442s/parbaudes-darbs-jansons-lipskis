@@ -12,7 +12,9 @@ skaits = 0
 with open("sistema.log", encoding="utf-8") as f:
     for rinda in f:
         dalas = rinda.split()
-        if dalas[3] == "sshd":
+        if dalas[3] == "sshd:":
             skaits = skaits + 1
 
 print("sshd rindas:", skaits)
+
+
