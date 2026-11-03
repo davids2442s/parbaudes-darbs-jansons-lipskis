@@ -1,0 +1,32 @@
+J1. Kāpēc strādā tev, bet ne kolēģim   (4 p.)
+Tu uzraksti skriptu, un tev tas strādā. Kolēģim tas pašā pirmajā rindā avarē. Nosauc četrus 
+dažādus iemeslus, kāpēc tā var notikt, un katram pasaki, kā to pārbaudīt. Kodu rakstīt 
+nevajag.
+
+1. nav programma instalets kas palsaiž to kodu piemēram python. kā parbaudīt. vairākas reizes palaid, ja nepalaiž, parbaudi faila formātu, ja tur ir rakstīts .py tad tas ir python files. vajag ieladet pythonu un tad palaistu to skriptu un stradas.
+
+
+2.  vai powershell execution policy  neļauj palaist skriptu. vajag to bypass. izmantot šo mazo kodiņu "Set-ExecutionPolicy RemoteSigned -Scope Process -Force; & "scripts.ps1" " var arī strādāt šis "unblock-file "scripts.ps1" ", 
+kad palaid tad stradas. kā parbaudit. ja rada execution polocy error output tad vajag to bypassot. 
+
+3. varbūt ir veca sistēma, vai kāda programma., ka parbaudit. atjaunot versiju. kad pabeidz atjaunot, palaid skriptu. pa izdevās tad ir parbaudits.
+
+
+4. varbūt scripts ir sabojāts. palaidz uz abiem datoriem. un nestrada skripts. rekur ir parbaudits, skripts bojats. 
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+J2. Kāpēc atskaiti saglabāt failā   (2 p.)
+Tavs skripts var rezultātu izvadīt ekrānā vai ierakstīt failā. Nosauc vienu praktisku 
+iemeslu, kāpēc uzturēšanas darbā to labāk ierakstīt failā.
+
+
+
+izvadīt uz ekrāna rezulutatu ir vieglāk pazaudet, jo netisam izledz vai aizver ciet. tu veco rezultatu nedabusi atpakal. vajadzes palaist scriptu vel reizi lai dabutu to rezultatu.
+
+bet ierakstit to failā, tev vienš glabāsies mūžīgi. vienmēr varēsi atvert cik vien gribi. vecie rezultati nekur napazudīs. 
+
+tapec ka ierakstit ir labak jo drošak ir. kā minēju nekur pazudīs. bet ja izvada uz ekrāna vinš var pazust. pec tam bus pa jaunu japalaiž skripts. 
+

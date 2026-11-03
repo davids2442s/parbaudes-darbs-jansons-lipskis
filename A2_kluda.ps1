@@ -8,7 +8,9 @@
 # ----------------------------------------------------------------------                                                                                                Pirms rezultāta izvadi Write-Host rindu "Mērījums sākas".
 
 $procesi = Get-Process
-$rezultats = $procesi | Measure-Object WorkingSet64
+$rezultats = $procesi | {Measure-Object WorkingSet64 }
 
 Write-Host "Procesu skaits:" $rezultats.Count
 Write-Host "Atmiņa kopā:" $rezultats.Sum
+
+
